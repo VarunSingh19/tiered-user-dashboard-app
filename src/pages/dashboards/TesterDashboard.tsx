@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import Layout from '../../components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { User, Calendar, Shield } from 'lucide-react';
+import { User, Calendar, Shield, Zap } from 'lucide-react';
 
 const TesterDashboard: React.FC = () => {
   const { user, getAllUsers } = useAuth();
